@@ -21,12 +21,14 @@ try {
   dotenv.config({ path: process.cwd() + "/" + ENV_FILE_NAME });
 } catch (e) {}
 
+
 // CORS when consuming Medusa from admin
-const ADMIN_CORS =
-  process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001";
+const ADMIN_CORS = process.env.ADMIN_CORS || 
+  "http://localhost:7000,http://localhost:7001, https://medusa-backend-black.vercel.app";
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
+const STORE_CORS = 
+  process.env.STORE_CORS || "http://localhost:8000, https:next-frontend-black.vercel.app";
 
 const DATABASE_URL =
   process.env.DATABASE_URL || "postgres://localhost/medusa-starter-default";
@@ -86,10 +88,3 @@ module.exports = {
   plugins,
   modules,
 };
-// CORS when consuming Medusa from admin
-const ADMIN_CORS = process.env.ADMIN_CORS || 
-  "http://localhost:7000,http://localhost:7001, https://medusa-backend-black.vercel.app"
-
-// CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = 
-  process.env.STORE_CORS || "http://localhost:8000, https:next-frontend-black.vercel.app"

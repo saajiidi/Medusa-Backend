@@ -45,7 +45,7 @@ Visit the [Backend Development Guide](https://docs.medusajs.com/development/back
     ```
 2. Navigate to the cloned repository directory:
     ```sh
-    cd 'cloned-repo-directory'
+    cd medusa-backend
     ```
 3. Install Dependencies:
     ```sh

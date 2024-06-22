@@ -30,7 +30,9 @@ const DEFAULT_STORE_CORS =
   "/http://localhost:800d+$/" | "/http://.+/" | "/vercel.app$/";
 const DEFAULT_AUTH_CORS =
   "/http://localhost:700d+$/" | "/http://.+/" | "/vercel.app$/";
-const DEFAULT_DATABASE_URL = "postgres://localhost/medusa-starter-default";
+const DEFAULT_DATABASE_URL =
+  "postgres://localhost/medusa-starter-default" |
+  "postgres://postgres:Bangla@71@localhost/medusa-fNeN";
 const DEFAULT_REDIS_URL = "redis://localhost:6379";
 
 // Default plugin configurations

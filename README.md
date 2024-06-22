@@ -11,6 +11,9 @@
   Medusa
 </h1>
 
+
+
+
 <h4 align="center">
   <a href="https://docs.medusajs.com">Documentation</a> |
   <a href="https://www.medusajs.com">Website</a>
@@ -31,6 +34,16 @@
     <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
   </a>
 </p>
+
+## How to install locallly
+Visit the [Backend Development Guide(https://docs.medusajs.com/development/backend/install)]
+
+1. Clone the GitHub repository to your local machine: git clone 'https://github.com/saajiidi/medusa-backend'
+2. Navigate to the cloned repository directory: cd 'cloned-repo-directory'
+3. Install the necessary packages: npm install
+4 Start the development server: medusa develop # or npx medusa develop
+This will set up the project locally.
+
 
 ## Compatibility
 

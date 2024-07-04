@@ -33,7 +33,7 @@ const DEFAULT_AUTH_CORS =
 const DEFAULT_DATABASE_URL =
   "postgres://localhost/medusa-starter-default" |
   "postgres://postgres:Bangla@71@localhost/medusa-fNeN";
-const DEFAULT_REDIS_URL = "redis://localhost:6379";
+const DEFAULT_REDIS_URL = "";
 
 // Default plugin configurations
 const plugins = [
